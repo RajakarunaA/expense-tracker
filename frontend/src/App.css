@@ -1,0 +1,80 @@
+/* Global */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a2e; /* Dark black-purple */
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: #222240;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  color: #c778dd; /* Light purple */
+}
+
+/* Input Fields */
+input {
+  padding: 10px;
+  margin: 5px 5px 5px 0;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+/* Button Colors */
+button.add {
+  background-color: #ffeb3b; /* Yellow */
+  color: #222240;
+}
+
+button.delete {
+  background-color: #e74c3c; /* Red */
+  color: white;
+}
+
+button.add:hover {
+  background-color: #fdd835;
+}
+
+button.delete:hover {
+  background-color: #c0392b;
+}
+
+/* Expense Cards */
+.expense-card {
+  background-color: #2e2e50;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Expense Amount */
+.expense-amount {
+  color: #00ff00; /* Green for positive amounts */
+  font-weight: bold;
+}
